@@ -18,3 +18,12 @@ with wanted file size ($_GET)
 ```bash
 curl -o /dev/null http://{your domain}/speedtest.php?size=1073741824
 ```
+# wget
+with set file size
+```bash
+wget -O /dev/null http://{your domain}speedtest.php
+```
+with wanted file size ($_GET)
+```bash
+wget -O /dev/null http://{your domain}/speedtest.php?size=1073741824
+```
